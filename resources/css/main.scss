@@ -1,0 +1,15 @@
+//Utils
+@import "utils/variables";
+
+//Base
+@import "base/reset";
+
+//Layouts
+@import "layout/header";
+@import "layout/footer";
+@import "layout/global";
+
+//Pages
+@import "pages/home";
+@import "pages/character";
+@import "pages/characters";

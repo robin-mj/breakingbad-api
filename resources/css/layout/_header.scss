@@ -1,0 +1,20 @@
+header {
+    width: 75%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    h1 {
+        font-weight: bold;
+        font-size: 3em;
+        padding-top: 2%;
+    }
+
+    img {
+        position: absolute;
+        left: 0;
+        width: 8%;
+    }
+}

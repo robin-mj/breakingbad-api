@@ -18,6 +18,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/home', function () {
+    return view('pages.home');
+});
 Route::get('/characters', [CharactersController::class, 'characters']);
-Route::get('/character/{id}', [CharactersController::class, 'character']);
-Route::get('/characters', [CharactersController::class, 'characters']);
+Route::get('/character/{name}', [CharactersController::class, 'character']);
+Route::get('/randomcharacter', [CharactersController::class, 'random']);

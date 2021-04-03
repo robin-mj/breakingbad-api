@@ -1,0 +1,54 @@
+.home-wrap {
+    width: 50%;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 5%;
+
+    div {
+        width: 100%;
+
+        img {
+            position: absolute;
+            right: 20px;
+        }
+
+        p {
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        input {
+            width: 100%;
+            border-style: none;
+            border-radius: 50px;
+            font-size: 1.5em;
+            padding: 20px 0;
+            outline: none;
+            text-align: center;
+
+            placeholder{
+                padding-left: 20px;
+            }
+        }
+    }
+
+    button {
+        width: 50%;
+        background-color: $color-darkgreen;
+        color: white;
+        border: none;
+        font-size: 1.5em;
+        border-radius: 50px;
+        padding: 20px 0;
+        transition-duration: 0.5s;
+
+        &:hover {
+            background-color: #1f6032;
+        }
+    }
+
+}
